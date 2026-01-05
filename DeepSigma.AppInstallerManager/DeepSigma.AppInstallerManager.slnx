@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="../DeepSigma.AppInstallerManager.Test/DeepSigma.AppInstallerManager.Test.csproj" />
+  <Project Path="DeepSigma.AppInstallerManager.csproj" />
+</Solution>
