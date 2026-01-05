@@ -54,10 +54,8 @@ public static class AppVersioningService
         bool BuildSuccess = Int32.TryParse(values[2], out int Build);
         bool PatchSuccess = Int32.TryParse(values[3], out int Patch);
 
-        if (MajorSuccess && MinorSuccess && BuildSuccess && PatchSuccess)
-        {
-            return new ApplicationVersion(Major, Minor, Build, Patch);
-        }
-        return null;
+        return (MajorSuccess && MinorSuccess && BuildSuccess && PatchSuccess) 
+            ? new ApplicationVersion(Major, Minor, Build, Patch)
+            : null;
     }
 }
