@@ -1,0 +1,19 @@
+﻿# This is a custom file selection mechanism.
+# Designate what directories and files to select by including them in this file.
+# Comments are denoted by "#"
+#
+#
+# Below are examples of how to use this file. 
+# Including *.txt will select any file that ends in .txt.
+# Including Config* will select any file that start with Config.
+# Including "\Config" will select any directory named "Config".
+# Including "Config.json" will select that file.
+# Including "\*config" will select any directory that ends in config.
+# Including "\Config*" will select any directory that starts with Config.
+
+Config.json
+*.txt
+Tester*
+\Data
+\*Test
+\Time*

@@ -19,4 +19,15 @@
     <ProjectReference Include="..\DeepSigma.AppInstallerManager\DeepSigma.AppInstallerManager.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Data\TestDirectories_DoNotDelete\0_0_0_0\" />
+    <Folder Include="Data\TestDirectories_DoNotDelete\0_0_0_BadForm\" />
+    <Folder Include="Data\TestDirectories_DoNotDelete\11_11_11_11\" />
+    <Folder Include="Data\TestDirectories_DoNotDelete\11_11_15_110\" />
+    <Folder Include="Data\TestDirectories_DoNotDelete\1_0_0_0\" />
+    <Folder Include="Data\TestDirectories_DoNotDelete\1_0_0_1\" />
+    <Folder Include="Data\TestDirectories_DoNotDelete\1_0_1_0\" />
+    <Folder Include="Data\TestDirectories_DoNotDelete\1_1_0_0\" />
+  </ItemGroup>
+
 </Project>

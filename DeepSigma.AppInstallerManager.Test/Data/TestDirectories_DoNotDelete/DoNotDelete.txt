@@ -1,0 +1,1 @@
+﻿Test file in root directory to ensure the app versioning system doesn't error out.

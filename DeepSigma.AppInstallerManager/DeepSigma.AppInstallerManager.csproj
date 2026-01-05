@@ -16,7 +16,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Utilities\" />
+    <PackageReference Include="DeepSigma.OperatingSystem" Version="1.2.0" />
   </ItemGroup>
 
   <ItemGroup>
